@@ -1,237 +1,134 @@
-# Awesome-Browser-Security-Platform
-
-## Top Browser Security Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Enterprise Browser Isolation, Threat Protection & Secure Web Access*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Browser Security**. These tools protect organizations from web-based threats including phishing, malware, ransomware, and data exfiltration through enterprise browsers, remote browser isolation (RBI), and browser security extensions.
-
-
-
-**Examples** include Island, Menlo Security, Talon Cyber Security, Seraphic Security, LayerX Security, Palo Alto Prisma Access Browser, Netskope Browser Isolation, Authentic8 Silo, Ericom Shield, and Google Chrome Enterprise Premium (the category leaders).
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom browser isolation, and transparent security extensions — ideal for security teams, enterprises, and developers building vendor-independent browser security solutions. Note that the open-source ecosystem for full enterprise browser platforms remains limited, with most projects focused on browser isolation, privacy-hardened browsers, or security extensions rather than complete enterprise browser replacements.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Island](https://www.island.io/)**
-
-  Enterprise browser built on Chromium with built-in DLP, secure web access, and identity controls. Enables BYOD without VDIs and prevents copy-paste, screenshots, and downloads of sensitive data. Over 2 million browsers sold across Fortune 500 enterprises .
-
-
-
-- **[Menlo Security](https://www.menlosecurity.com/)**
-
-  Cloud-based isolation platform eliminating web-based threats by executing all browsing activity in disposable containers.
-
-
-
-- **[Talon Cyber Security](https://www.talon-sec.com/)**
-
-  Enterprise browser with built-in security controls, now part of Palo Alto Networks.
-
-
-
-- **[Seraphic Security](https://seraphicsecurity.com/)**
-
-  Enterprise browser security platform extending protection to any browser through a lightweight agent.
-
-
-
-- **[LayerX Security](https://layerxsecurity.com/)**
-
-  Browser security platform providing visibility, governance, and threat protection across all enterprise browsers.
-
-
-
-- **[Palo Alto Prisma Access Browser](https://www.paloaltonetworks.com/)**
-
-  Enterprise browser integrated with Prisma Access for SASE-native security and data protection .
-
-
-
-- **[Netskope Browser Isolation](https://www.netskope.com/)**
-
-  Remote browser isolation integrated with Netskope's SASE platform for threat protection and data loss prevention.
-
-
-
-- **[Authentic8 Silo](https://www.authentic8.com/)**
-
-  Cloud-based isolated browser providing secure, anonymous web access for threat research and high-risk browsing.
-
-
-
-- **[Ericom Shield](https://www.ericom.com/)**
-
-  Remote browser isolation platform (now part of Cradlepoint) eliminating web-based threats through containerized browsing.
-
-
-
-- **[Google Chrome Enterprise Premium](https://chromeenterprise.google/)**
-
-  Enterprise version of Chrome with advanced security controls, DLP, and context-aware access .
-
-
-
-- **[Citrix Secure Browser](https://www.citrix.com/)**
-
-  Cloud-based browser isolation service integrated with Citrix Workspace.
-
-
-
-- **[Cisco Secure Browser](https://www.cisco.com/)**
-
-  Enterprise browser security through Cisco's security portfolio.
-
-
-
-- **[Cloudflare Browser Isolation](https://www.cloudflare.com/)**
-
-  Browser isolation integrated with Cloudflare Zero Trust for threat protection and data governance.
-
-
-
-- **[Material Security Browser](https://material.security/)**
-
-  Browser security platform focused on email and data protection.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[BrowserBox](https://github.com/BrowserBox/BrowserBox)**
-
-  Leading open-source remote browser isolation platform with 3,600+ stars. Web application virtualization via zero trust remote browser isolation and secure document gateway technology. Embed secure unrestricted webviews on any device. Multiplayer embeddable browsers available .
-
-
-
-- **[KubeBrowse](https://github.com/browsersec/KubeBrowse)**
-
-  Secure browser-in-browser isolation platform powered by Kubernetes. Ephemeral sandboxed browsing environments accessed through your browser with no additional software. Each session runs in an isolated container with real-time threat analysis and automatic cleanup after timeout. Features Chrome Extension support for launching isolated sessions from Gmail, WhatsApp, or Telegram with automatic threat analysis .
-
-
-
-- **[Iridium Browser](https://iridiumbrowser.de/)**
-
-  Chromium-based browser with privacy and security enhancements. Prevents automatic transmission of partial queries, keywords, and metrics to central services without user approval. Reproducible builds and auditable modifications. MSI-based installation for easy enterprise deployment .
-
-
-
-- **[Osprey: Browser Protection](https://github.com/osprey-project/osprey)**
-
-  Free, open-source browser security extension (GPLv3) protecting against phishing, malware, scams, and malicious websites. Checks every site against 20+ threat-intelligence providers via privacy-preserving proxy. Available on Chrome, Firefox, and Edge .
-
-
-
-- **[SithScanner](https://github.com/Farhann0x6d/SithScanner)**
-
-  Lightweight browser-based EDR/extension going beyond static URL blacklists. Actively analyzes in-browser behavior, detecting clipboard abuse, LOLBins, and obfuscated payloads (ClickFix campaigns). Blocks threats before execution. Available for Chrome, Edge, and Firefox .
-
-
-
-- **[ssbapp (Site-Specific Browser)](https://github.com/eyedeekay/go-fpw)**
-
-  Command line utility creating isolated Firefox instances for specific websites. Each website gets its own isolated profile directory with private browsing mode support. Clean URL-based profile naming for easy management .
-
-
-
-- **[Lucent — Browser Audit](https://github.com/DevextCorp/lucent)**
-
-  Open-source browser security audit extension. Provides instant security score (0–100) checking 16 security and privacy settings. ScriptSpy feature inspects JavaScript behavior on any website in real-time, showing risk scores and fingerprinting techniques. 100% local analysis, no data leaves device .
-
-
-
-- **[SOC Toolkit](https://github.com/gabrieljabour/soc-toolkit)**
-
-  Free, open-source browser extension for security analysts. Fast IOC lookups (IP reputation, WHOIS, hash analysis, domain intelligence), blockchain address verification, CVE lookup, and Windows Event ID reference. Query history, investigation cases, and report export features .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **H1j4ck** — Educational browser security testing extension for learning about browser security mechanisms .
-
-- **Firefox Enterprise** — Mozilla's enterprise browser offering with ESR (Extended Support Release), Group Policy support, and enterprise deployment options. Open source and privacy-focused .
-
-- **Mozilla Enterprise Browser Initiative** — Mozilla is building an enterprise-focused Firefox branch with supply chain security, resiliency, and on-prem/SecNumCloud deployment capabilities .
-
-
-
-**Frameworks for building custom browser security solutions**: Combine **BrowserBox** for remote browser isolation, **SithScanner** or **Osprey** for threat detection extensions, and **Iridium** for privacy-hardened browser deployment. For Kubernetes-based isolation, **KubeBrowse** provides containerized browsing sessions with threat analysis. Note that true enterprise browser platforms with full DLP, identity integration, and SASE connectivity remain largely commercial offerings; open-source stacks provide isolation, threat detection, and privacy hardening without the complete enterprise management layer.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Browser security tools must comply with data privacy regulations (GDPR, CCPA, etc.) and applicable laws regarding traffic monitoring and user data handling.
-
-- Self-hosted open-source solutions require proper infrastructure, security hardening, and ongoing maintenance. Browser isolation platforms require significant compute resources for containerized sessions.
-
-- The open-source ecosystem provides strong isolation and threat detection capabilities, but full enterprise browser platforms with integrated DLP, identity governance, and SASE connectivity remain primarily commercial offerings.
-
-
+# 🛡️ Awesome Browser Security Platform 🌐
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Browser Security Banner" width="100%"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Security-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-Security-Platform?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Security-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Browser-Security-Platform?style=social" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 🚀 Top Browser Security Platform & Remote Browser Isolation Ecosystem
 
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Enterprise Browser Security, Remote Browser Isolation (RBI), Secure Web Access, Zero Trust Web Browsing, and Data Loss Prevention (DLP)*
 
-**Made for security engineers, enterprise architects, and browser security professionals.**
+📅 **Last updated:** September 2026
 
-Let's make browser security more open, transparent, and resilient.
+---
+
+### 💡 Overview & SEO Highlights
+Welcome to the comprehensive curated directory of **Enterprise Browser Security** and **Remote Browser Isolation (RBI)** solutions. Modern organizations face increasing cyber threats from phishing, malware, ransomware, credential harvesting, and data exfiltration through web browsers. 
+
+This guide tracks leading commercial enterprise browser platforms (such as Island, Menlo Security, Palo Alto Prisma Access Browser, and Google Chrome Enterprise Premium) as well as powerful open-source security tools, sandboxed browser environments, and browser extension EDR systems for security teams, enterprise architects, and developers.
+
+---
+
+## 📑 Table of Contents
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Frameworks for Custom Browser Security](#%EF%B8%8F-frameworks-for-building-custom-browser-security-solutions)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+The global **Enterprise Browser & Browser Security market** is estimated at **$3.40 Billion - $5.40 Billion in 2025** (projected to reach **$8.46B - $18.40B by 2030-2034** at a CAGR of ~20%). The sector is currently **highly fragmented**, split between standalone enterprise browsers (e.g. Island), browser security extensions (e.g. LayerX, Seraphic), and Remote Browser Isolation (RBI) integrated into SASE/Zero Trust platforms.
+
+| Product | Description | Company Size (Valuation / Revenue / Market Cap) | Pricing (Starting Tier) | Free Tier Limit / Trial |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Chrome Enterprise Premium](https://chromeenterprise.google/)** | Enterprise version of Chrome with advanced security controls, DLP, and context-aware access. | **$2.45 Trillion** Market Cap (Alphabet) | **$6 per user/month** | **60-day free trial** (up to 5,000 users) |
+| **[Cisco Secure Browser / Access](https://www.cisco.com/)** | Enterprise browser security and Zero Trust Access integrated into Cisco's security portfolio. | **$421 Billion** Market Cap (Cisco) | **$3 per user/month** (Security Cloud base) | **30-day free trial** upon request |
+| **[Palo Alto Prisma Access Browser](https://www.paloaltonetworks.com/)** | Enterprise browser integrated with Prisma Access for SASE-native security and data protection (includes Talon Cyber Security, acquired for $625M). | **$306 Billion** Market Cap (Palo Alto Networks) | **$7 per user/month** (Prisma SASE tier) | **30-day Proof-of-Concept (POC)** via sales |
+| **[Cloudflare Browser Isolation](https://www.cloudflare.com/)** | Browser isolation integrated with Cloudflare Zero Trust for threat protection and data governance. | **$125 Billion** Market Cap (Cloudflare) | **$10 per user/month** (Add-on to $7/user Zero Trust base) | **Free tier up to 50 users** (Zero Trust base); demo for RBI |
+| **[Netskope Browser Isolation](https://www.netskope.com/)** | Remote browser isolation integrated with Netskope's SASE platform for threat protection and data loss prevention. | **$7.5 Billion** Market Cap / **$845M ARR** | **$60 per user/month** (Comprehensive SASE bundle) | **Interactive Hands-On Test Drive / Lab** |
+| **[Island](https://www.island.io/)** | Enterprise browser built on Chromium with built-in DLP, secure web access, and identity controls. Over 2 million browsers deployed. | **$6.4 Billion** Valuation / **$200M ARR** | **$25,000 per year** (MSP starting tier) / ~$10/user/mo | **Custom Demo / 14-day evaluation** upon request |
+| **[Citrix Secure Browser](https://www.citrix.com/)** | Cloud-based browser isolation service integrated with Citrix Workspace & Secure Private Access. | **$4.0 Billion** Revenue (Privately Held via Vista/Evergreen) | **$7 per user/month** (Secure Private Access tier) | **60-day free trial** via Citrix Cloud console |
+| **[Material Security Browser](https://material.security/)** | Browser security platform focused on email, Workspace, and data protection. | **$1.1 Billion** Valuation | **$4 per user/month** (Essentials plan) | **Risk-free Proof-of-Concept / Guided Demo** |
+| **[Menlo Security](https://www.menlosecurity.com/)** | Cloud-based isolation platform eliminating web-based threats by executing all browsing activity in disposable containers. | **$800 Million** Valuation / **$100M ARR** | **$1,450 per user/year** (Enterprise tier estimate) | **Custom Demo / Guided Trial** via sales |
+| **[Seraphic Security](https://seraphicsecurity.com/)** | Enterprise browser security platform extending protection to any browser; acquired by CrowdStrike for $420M (Falcon Seraphic Browser). | **$420 Million** Acquisition Value (by CrowdStrike) | **$15 per user/month** (Falcon addon tier) | **15-day CrowdStrike Falcon Free Trial** |
+| **[LayerX Security](https://layerxsecurity.com/)** | Browser security platform providing visibility, governance, and threat protection across enterprise browsers; acquired by Akamai for $205M. | **$205 Million** Acquisition Value (by Akamai) | **$5 per user/month** (Workforce Protector tier) | **Custom Demo / Evaluation Trial** via Akamai |
+| **[Authentic8 Silo](https://www.authentic8.com/)** | Cloud-based isolated browser providing secure, anonymous web access for threat research and high-risk browsing. | **$100 Million** Estimated Revenue | **$1,450 per user/year** ($121/mo, Local tier) | **30-day free trial** |
+| **[Ericom Shield](https://www.ericom.com/)** | Remote browser isolation platform eliminating web-based threats through containerized browsing; acquired by Cradlepoint / Ericsson. | **$16.1 Million** Revenue (Part of Cradlepoint/Ericsson) | **$6 per user/month** (NetCloud Threat Defense tier) | **Custom Evaluation Trial** upon request |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below are active open-source projects for self-hosting, custom browser isolation, privacy hardening, and browser security extensions. Sorted by **GitHub Star Count** (descending).
+
+| Project & Repository | Stars | Category & Key Features |
+| :--- | :--- | :--- |
+| **[browser-use](https://github.com/browser-use/browser-use)** | [<img src="https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white" alt="browser-use stars"/>](https://github.com/browser-use/browser-use/stargazers) | **Agent Sandbox & Automation**: Open-source web browser automation framework with isolated execution contexts for AI agents and secure web interaction. |
+| **[BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef)** | [<img src="https://img.shields.io/github/stars/beefproject/beef?style=social&color=white" alt="BeEF stars"/>](https://github.com/beefproject/beef/stargazers) | **Security Testing & Assessment**: Penetration testing tool focused on client-side browser vulnerabilities, XSS vectors, and security assessment. |
+| **[Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)** | [<img src="https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium?style=social&color=white" alt="ungoogled-chromium stars"/>](https://github.com/ungoogled-software/ungoogled-chromium/stargazers) | **Hardened Privacy Browser**: Lightweight drop-in replacement for Chromium stripped of background requests to Google services, enhanced with privacy tweaks. |
+| **[BrowserBox](https://github.com/BrowserBox/BrowserBox)** | [<img src="https://img.shields.io/github/stars/BrowserBox/BrowserBox?style=social&color=white" alt="BrowserBox stars"/>](https://github.com/BrowserBox/BrowserBox/stargazers) | **Remote Browser Isolation**: Leading open-source web application virtualization platform via zero-trust RBI, multiplayer embeddable browsers, and secure document gateways. |
+| **[Hardentools](https://github.com/securitywithoutborders/hardentools)** | [<img src="https://img.shields.io/github/stars/securitywithoutborders/hardentools?style=social&color=white" alt="hardentools stars"/>](https://github.com/securitywithoutborders/hardentools/stargazers) | **Endpoint & Browser Hardening**: Security utility disabling risky features in OS and browser settings to reduce attack surfaces against web threats. |
+| **[KubeBrowse](https://github.com/browsersec/KubeBrowse)** | [<img src="https://img.shields.io/github/stars/browsersec/KubeBrowse?style=social&color=white" alt="KubeBrowse stars"/>](https://github.com/browsersec/KubeBrowse/stargazers) | **Kubernetes RBI Platform**: Ephemeral sandboxed browsing environments running in isolated containers with real-time threat analysis and automated session cleanup. |
+| **[SithScanner](https://github.com/Farhann0x6d/SithScanner)** | [<img src="https://img.shields.io/github/stars/Farhann0x6d/SithScanner?style=social&color=white" alt="SithScanner stars"/>](https://github.com/Farhann0x6d/SithScanner/stargazers) | **In-Browser EDR Extension**: Extension detecting clipboard abuse, LOLBins, and obfuscated payload execution (ClickFix campaigns) directly inside modern browsers. |
+| **[Iridium Browser](https://iridiumbrowser.de/)** | [<img src="https://img.shields.io/github/stars/iridium-browser/iridium-browser?style=social&color=white" alt="Iridium stars"/>](https://github.com/iridium-browser/iridium-browser/stargazers) | **Enterprise Hardened Browser**: Chromium-based privacy-hardened browser preventing automatic data transmission, offering MSI deployment packages. |
+| **[Osprey: Browser Protection](https://github.com/osprey-project/osprey)** | [<img src="https://img.shields.io/github/stars/osprey-project/osprey?style=social&color=white" alt="Osprey stars"/>](https://github.com/osprey-project/osprey/stargazers) | **Threat Detection Extension**: GPLv3 open-source browser extension checking sites against 20+ threat-intelligence providers via privacy proxy. |
+| **[SOC Toolkit](https://github.com/gabrieljabour/soc-toolkit)** | [<img src="https://img.shields.io/github/stars/gabrieljabour/soc-toolkit?style=social&color=white" alt="SOC Toolkit stars"/>](https://github.com/gabrieljabour/soc-toolkit/stargazers) | **Analyst Investigation Tool**: Open-source browser extension providing rapid IOC lookups, WHOIS analysis, IP reputation, and hash lookup tools for SOC teams. |
+| **[Lucent — Browser Audit](https://github.com/DevextCorp/lucent)** | [<img src="https://img.shields.io/github/stars/DevextCorp/lucent?style=social&color=white" alt="Lucent stars"/>](https://github.com/DevextCorp/lucent/stargazers) | **Security & Privacy Audit**: Browser extension evaluating 16 security settings and real-time JavaScript fingerprinting behavior locally without data leakage. |
+| **[ssbapp (Site-Specific Browser)](https://github.com/eyedeekay/go-fpw)** | [<img src="https://img.shields.io/github/stars/eyedeekay/go-fpw?style=social&color=white" alt="ssbapp stars"/>](https://github.com/eyedeekay/go-fpw/stargazers) | **Isolated Profile Utility**: CLI utility spawning site-specific Firefox instances with separate profile directories and private browsing defaults. |
+
+---
+
+### 🛠️ Frameworks for Building Custom Browser Security Solutions
+Security teams can combine these open-source building blocks:
+- Use **[BrowserBox](https://github.com/BrowserBox/BrowserBox)** or **[KubeBrowse](https://github.com/browsersec/KubeBrowse)** for containerized Remote Browser Isolation.
+- Deploy **[SithScanner](https://github.com/Farhann0x6d/SithScanner)** or **[Osprey](https://github.com/osprey-project/osprey)** for extension-based threat detection and EDR analysis.
+- Utilize **[Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium)** or **[Iridium](https://iridiumbrowser.de/)** for corporate desktop privacy-hardened browser deployments.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help us keep this directory accurate and updated:
+1. **Fork** this repository.
+2. Add or update entries in `README.md` maintaining table formatting.
+3. Ensure details include factual descriptions, vendor size/pricing, and official GitHub/product links.
+4. Submit a **Pull Request** with a clear explanation of changes.
+
+For curated meta-lists, explore [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this repository helpful in evaluating browser security architectures, please consider starring ⭐ the repository, sharing it with colleagues, or sponsoring the project!
+
+- ⭐ **Star this repository** to show your support.
+- 🔀 **Fork & Share** with your security engineering teams.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository provides a **community-curated overview** — it is not an endorsement or exhaustive audit of listed products.
+- All enterprise browser security products must comply with organizational security policies and global regulatory frameworks (GDPR, CCPA, HIPAA).
+- Self-hosted open-source isolation platforms require dedicated compute resources and security hardening for production environments.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Browser-Security-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Browser-Security-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made for security engineers, enterprise architects, and browser security professionals.</b><br/>
+  Let's make browser security more open, transparent, and resilient. 🛡️✨
+</p>
