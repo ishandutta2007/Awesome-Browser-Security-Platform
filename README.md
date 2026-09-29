@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Browser-Security-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-Security-Platform?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-Security-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-Security-Platform?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Browser-Security-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Browser-Security-Platform?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -65,9 +65,9 @@ The global **Enterprise Browser & Browser Security market** is estimated at **$3
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are active open-source projects for self-hosting, custom browser isolation, privacy hardening, and browser security extensions. Sorted by **GitHub Star Count** (descending).
+Below are active open-source projects for self-hosting, custom browser isolation, privacy hardening, and browser security extensions. Sorted by **GitHub Stars_Count** (descending).
 
-| Project & Repository | Stars | Category & Key Features |
+| Project & Repository | GitHub_Stars | Category & Key Features |
 | :--- | :--- | :--- |
 | **[browser-use](https://github.com/browser-use/browser-use)** | [<img src="https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white" alt="browser-use stars"/>](https://github.com/browser-use/browser-use/stargazers) | **Agent Sandbox & Automation**: Open-source web browser automation framework with isolated execution contexts for AI agents and secure web interaction. |
 | **[BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef)** | [<img src="https://img.shields.io/github/stars/beefproject/beef?style=social&color=white" alt="BeEF stars"/>](https://github.com/beefproject/beef/stargazers) | **Security Testing & Assessment**: Penetration testing tool focused on client-side browser vulnerabilities, XSS vectors, and security assessment. |
